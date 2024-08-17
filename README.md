@@ -20,7 +20,8 @@
 
 ## Day 2
 
-|-------------------|-----------------|
+|Time | Topic|
+|---|---|
 |9:00 - 9:15|Recap and agenda for Day2|
 |9:15 - 10:00|Fabric Data Factory presentation and demo|
 |10:00 - 10:45|Lab for Fabric Data Factory|
