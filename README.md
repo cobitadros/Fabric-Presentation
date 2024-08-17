@@ -1,11 +1,11 @@
 # Fabric-Presentation
-August 2024 Microsoft Fabric Seminar with Live360 Online
-August 20th and 21st 2024 from 9:00 am to 5:00 pm CST
-Presenter: Lino Tadros, RD
+#### August 2024 Microsoft Fabric Seminar with Live360 Online
+#### August 20th and 21st 2024 from 9:00 am to 5:00 pm CST
+### Presenter: Lino Tadros, RD
 
 ## Day 1
-
-|-------------------|-----------------|
+|Time | Topic|
+|---|---|
 |9:00 - 9:15|Welcome and Introduction|
 |9:15 - 10:00|Introduction to Microsoft Fabric|
 |10:00 - 10:15|Break|
