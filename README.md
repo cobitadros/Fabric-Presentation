@@ -18,7 +18,7 @@
 |3:15 - 4:00|Fabric Data Flows Gen2|
 |4:00 - 5:00|Lab for Fabric Data Flows Gen2|
 
-## Day 2 
+## Day 2
 
 |Time | Topic|
 |---|---|
