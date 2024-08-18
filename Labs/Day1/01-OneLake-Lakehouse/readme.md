@@ -18,8 +18,15 @@ Get the data from the following link: [Lakehouse Data](https://github.com/TheTra
 - Change the view from `Lakehouse` to `SQL Analysis Endpoint` and run a simple SQL query to select all records from a table.
 
 ## Sample
-I would use the Sales.csv file from the Lakehouse Data folder to load into the Lakehouse and then load it into a table. I would then run a simple SQL query like:
+I would use the Items.csv file from the Lakehouse Data folder to load into the Lakehouse and then load it into a table. Rename the Delta file to products.
+I would then run a simple SQL query like:
 ```sql
-SELECT PRODUCTLINE, Sum(QUANTITYORDERED) from sales
-group by PRODUCTLINE
+SELECT Category, AVG(WholesaleCost) as [AVG Wholesale Cost]
+From products
+group by Category
 ```
+## Using MS Sql Server Management Studio to access the Delta Files
+- Open the SQL Studio Management Studio
+- Use the connection string from your `SQL Analytics Endpoint` (you can find it by clicking on the gear in the upper left corner of the SQL Analytics Endpoint page)
+- Login with EntraID with MFA
+- Issue the same select statement from above to try teh access from the SQL Server Management Studio.
