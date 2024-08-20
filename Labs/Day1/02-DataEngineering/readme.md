@@ -6,6 +6,7 @@ Get the data from the following link:
 [Titantic Passanger List](https://raw.githubusercontent.com/plotly/datasets/master/titanic.csv)
 
 ### Step by Step Lab:
+Create a Notebook in Fabric and use the following code to read the data into a Pandas DataFrame.
 ```python
 import pandas as pd
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/titanic.csv')
