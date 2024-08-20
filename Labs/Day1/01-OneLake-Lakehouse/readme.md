@@ -1,10 +1,3 @@
-## Download the OneLake Explorer App
-
-[Download the OneLake Explorer App](https://www.microsoft.com/en-us/download/details.aspx?id=105222)
-
-Run the installer and follow the instructions to install the OneLake Explorer App.
-Make sure you see the inclusion of the folder in your Windows Explorer.
-
 ## Download the Lakehouse Data from Github
 
 Get the data from the following link: [Lakehouse Data](https://github.com/TheTrainingBoss/Fabric-Presentation/tree/main/Data) by cloning the repo or downloading the zip file repository.
@@ -30,3 +23,10 @@ group by Category
 - Use the connection string from your `SQL Analytics Endpoint` (you can find it by clicking on the gear in the upper left corner of the SQL Analytics Endpoint page)
 - Login with EntraID with MFA
 - Issue the same select statement from above to try teh access from the SQL Server Management Studio.
+
+## Download the OneLake Explorer App
+
+[Download the OneLake Explorer App](https://www.microsoft.com/en-us/download/details.aspx?id=105222)
+
+Run the installer and follow the instructions to install the OneLake Explorer App.
+Make sure you see the inclusion of the folder in your Windows Explorer.
