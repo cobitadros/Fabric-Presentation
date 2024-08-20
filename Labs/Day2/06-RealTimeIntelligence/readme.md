@@ -1,4 +1,4 @@
-## Fabric Real Time Analytics LAB
+## Fabric Real Time Intelligence LAB
 
 ### Data source:
 https://services.odata.org/v4/northwind/northwind.svc
