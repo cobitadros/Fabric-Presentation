@@ -30,6 +30,3 @@ group by Category
 
 Run the installer and follow the instructions to install the OneLake Explorer App.
 Make sure you see the inclusion of the folder in your Windows Explorer.
-
-## S3 Bucket fabricdata.csv 
-Follow along if you don't have an Amazon S3 bucket account.

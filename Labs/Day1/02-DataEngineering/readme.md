@@ -16,4 +16,7 @@ display(df)
 ### Use a Notebook to create a Spark DataFrame
 Follow the instruction in 02-Notebook.ipynb to experiment with Spark DataFrame in Fabric and get a feel for how to manipulate data in a Spark DataFrame from the Python side.
 
+## S3 Bucket fabricdata.csv 
+Follow along if you don't have an Amazon S3 bucket account.
+
 
