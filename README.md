@@ -31,7 +31,7 @@
 |1:00 - 1:45|Lab for Fabric Data Warehousing|
 |1:45 - 2:30|Fabric Real Time Analytics presentation and demo|
 |2:30 - 2:45|Break| 
-|2:45 - 3:30|Lab for Fabric Real Time Analytics|
+|2:45 - 3:30|Lab for Fabric Real Time Intelligence|
 |3:30 - 4:15|Fabric Data Science presentation and Demo|
 |4:15 - 4:50|Lab for Fabric Data Science|
 |4:50 - 5:00|Wrap up|
