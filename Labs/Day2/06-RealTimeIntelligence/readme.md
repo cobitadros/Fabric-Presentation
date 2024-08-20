@@ -4,8 +4,6 @@
 https://services.odata.org/v4/northwind/northwind.svc
 https://raw.githubusercontent.com/MicrosoftLearning/dp-data/main/orders.csv
 
-S3 Bucket fabricdata.csv
-
 // Use "take" to view a sample number of records in the table and check the data.
 Stocks
 | take 100
