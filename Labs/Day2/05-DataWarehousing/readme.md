@@ -1,18 +1,5 @@
 ## Fabric Data Warehousing LAB
 
-### Data sources:
-COPY INTO [dbo].[dimension_city] FROM 'https://azuresynapsestorage.blob.core.windows.net/sampledata/WideWorldImportersDW/tables/dimension_city.parquet' 
-WITH (file_type = 'PARQUET');
-
-COPY INTO [dbo].[dimension_customer] FROM 'https://azuresynapsestorage.blob.core.windows.net/sampledata/WideWorldImportersDW/tables/dimension_customer.parquet' 
-WITH (file_type = 'PARQUET');   
-
-COPY INTO [dbo].[dimension_date] FROM 'https://azuresynapsestorage.blob.core.windows.net/sampledata/WideWorldImportersDW/tables/dimension_date.parquet' 
-WITH (file_type = 'PARQUET');
-
-COPY INTO [dbo].[fact_sale] FROM 'https://azuresynapsestorage.blob.core.windows.net/sampledata/WideWorldImportersDW/tables/fact_sale.parquet'
-WITH (file_type = 'PARQUET');
-
 ### SQL for creating Tables:
 ```sql
 DROP TABLE IF EXISTS [dbo].[dimension_city];
@@ -102,3 +89,16 @@ CREATE TABLE [dbo].[fact_sale]
     [Quarter] [INT] NULL
 );	
 ```
+
+### Data sources:
+COPY INTO [dbo].[dimension_city] FROM 'https://azuresynapsestorage.blob.core.windows.net/sampledata/WideWorldImportersDW/tables/dimension_city.parquet' 
+WITH (file_type = 'PARQUET');
+
+COPY INTO [dbo].[dimension_customer] FROM 'https://azuresynapsestorage.blob.core.windows.net/sampledata/WideWorldImportersDW/tables/dimension_customer.parquet' 
+WITH (file_type = 'PARQUET');   
+
+COPY INTO [dbo].[dimension_date] FROM 'https://azuresynapsestorage.blob.core.windows.net/sampledata/WideWorldImportersDW/tables/dimension_date.parquet' 
+WITH (file_type = 'PARQUET');
+
+COPY INTO [dbo].[fact_sale] FROM 'https://azuresynapsestorage.blob.core.windows.net/sampledata/WideWorldImportersDW/tables/fact_sale.parquet'
+WITH (file_type = 'PARQUET');
